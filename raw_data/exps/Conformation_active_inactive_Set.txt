@@ -1,0 +1,286 @@
+# Copies and Copyright-Notice
+#
+#      RegulonDB is free for academic/noncommercial use
+#
+#      User is not entitled to change or erase data sets of the RegulonDB
+#      database or to eliminate copyright notices from RegulonDB. Furthermore,
+#      User is not entitled to expand RegulonDB or to integrate RegulonDB partly
+#      or as a whole into other databank systems, without prior written consent
+#      from CCG-UNAM.
+#
+#      Please check the license at http://regulondb.ccg.unam.mx/menu/download/full_version/terms_and_conditions.jsp
+#
+# Citation
+#
+#      Salgado, H. et al. (2013). "RegulonDB v8.0: Omics data sets, evolutionary conservation,
+#      regulatory phrases, cross-validated gold standards and more".
+#      Nucleic Acids Research. 2013 Jan 1;41(D1):D203-D213. Epub 2012 Nov 29.
+#
+#
+# Contact
+#
+#      Person: RegulonDB Team
+#      Web Page: http://regulondb.ccg.unam.mx/menu/about_regulondb/contact_us/index.jsp
+#          (regulondb@ccg.unam.mx)
+#
+#
+# Release: 9.0 Date: 09-15-2015
+# ___________________________________________________________________________
+# Columns:
+# (1) Transcription Factor (TF) identifier assigned by RegulonDB
+# (2) TF name
+# (3) Gene coding for the TF
+# (4) Effector Name
+# (5) Effector Type
+# (6) TF Conformation
+# (7) TF conformation type (Active, Inactive)
+# (8) Interaction type (covalente, allosteric)
+# (9) Functional Conformation (Apo, Holo)
+# (10) Evidence that supports the TF- Conformation [Evidence name|Evidence type: S = Strong, W = Weak| Evidence code]
+# (11) PMID list
+# (12) Evidence confidence level (Confirmed, Strong, Weak)
+ECK120015994	AcrR	acrR			AcrR	Active		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	17644067, 17950313	Strong
+ECK120015994	AcrR	acrR	R6G	negative	AcrR-R6G	Inactive	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	17644067, 17950313	Strong
+ECK120015994	AcrR	acrR	Proflavin	negative	AcrR-Proflavin	Inactive	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	17644067, 17950313	Strong
+ECK120015994	AcrR	acrR	Ethidium	negative	AcrR-Ethidium	Inactive	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	17644067, 17950313	Strong
+ECK120012595	Ada	ada			Ada	Active		Apo	[IDA|S|Inferred from direct assay]	7937881	Strong
+ECK120012595	Ada	ada	Methyl	positive	Ada-Methylated	Active	Covalent	Holo	[SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	16452614, 8720133	Strong
+ECK120030264	AlaS	alaS			AlaS	Inactive		Apo	[BPP|S|Binding of purified proteins]	6264314	Strong
+ECK120030264	AlaS	alaS	L-alanine	positive	AlaS-L-alanine	Active	Allosteric	Holo	[BPP|S|Binding of purified proteins]	6264314	Strong
+ECK120015630	AllR	allR	Glyoxylate	negative	AllR-Glyoxylate	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	12460564	Strong
+ECK120015630	AllR	allR			AllR	Active		Apo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	12460564	Strong
+ECK120015636	AllS	allS			AllS	Inactive		Apo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	12460564	Strong
+ECK120015636	AllS	allS	allantoin	positive	AllS-allantoin	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	12460564	Strong
+ECK120011959	AlsR	rpiR			AlsR	Active		Apo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction]	10559180, 9401019	Weak
+ECK120011959	AlsR	rpiR	D-allose	negative	AlsR-D-allose	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction]	10559180, 9401019	Weak
+ECK120012316	AraC	araC			AraC	Active		Apo	[IDA|S|Inferred from direct assay], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	10995226, 12683999, 1560456, 17173282, 19422057, 2962192, 3041410, 7768852, 8516313, 9103202, 9600836	Strong
+ECK120012316	AraC	araC	D-fucose	negative	AraC-D-fucose	Inactive	Allosteric	Holo	[IPI|W|Inferred from physical interaction]	12683999, 17173282	Weak
+ECK120012316	AraC	araC	L-arabinose	positive	AraC-L-arabinose	Active	Allosteric	Holo	[IDA|S|Inferred from direct assay], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	10995226, 12683999, 1560456, 17173282, 19422057, 2962192, 3041410, 7768852, 8516313, 9103202, 9600836	Strong
+ECK120011345	ArcA	arcA	Phosphate	positive	ArcA-Phosphorylated	Active	Covalent	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	10851007, 1512197, 15522865, 9286997	Strong
+ECK120011345	ArcA	arcA			ArcA	Inactive		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	10851007, 1512197, 15522865, 9286997	Strong
+ECK120011202	ArgP	argP	Lysine	negative	ArgP-Lysine	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	17504942, 18502871	Strong
+ECK120011202	ArgP	argP			ArgP	Active		Apo	[BPP|S|Binding of purified proteins]	18502871	Strong
+ECK120011202	ArgP	argP	L-arginine	positive	ArgP-L-arginine	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	17504942	Strong
+ECK120011670	ArgR	argR	L-arginine	positive	ArgR-L-arginine	Active	Allosteric	Holo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	11580241, 17074904, 3116542	Strong
+ECK120011670	ArgR	argR			ArgR	Inactive		Apo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	11580241, 17074904, 3116542	Strong
+ECK120030724	ArsR	arsR			ArsR	Active		Apo	[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	8621591	Strong
+ECK120030724	ArsR	arsR	Arsenite	negative	ArsR-arsenite	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	8621591	Strong
+ECK120030724	ArsR	arsR	Antimonite	negative	ArsR-antimonite	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	8621591	Strong
+ECK120013010	AsnC	asnC			AsnC	Active		Apo	[IPI|W|Inferred from physical interaction]	16528101	Weak
+ECK120013010	AsnC	asnC	L-asparagine	negative	AsnC-L-asparagine	Inactive	Allosteric	Holo	[IPI|W|Inferred from physical interaction]	16528101	Weak
+ECK120013014	AtoC	atoC	Phosphate	positive	AtoC-phosphorylated	Active	Covalent	Holo	[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [AIFS|W|Automated inference of function from sequence]	16153782, 17537579, 18534200, 21115262	Strong
+ECK120013014	AtoC	atoC			AtoC	Inactive		Apo	[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [AIFS|W|Automated inference of function from sequence]	16153782, 17537579, 18534200, 21115262	Strong
+ECK120015687	BaeR	baeR	Phosphate	positive	BaeR-Phosphorylated	Active	Covalent	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865	Strong
+ECK120013017	BetI	betI	Choline	negative	BetI-choline	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	8626295	Strong
+ECK120013017	BetI	betI			BetI	Active		Apo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	8626295	Strong
+ECK120012646	BirA	birA			BirA	Inactive		Apo	[SM|S|Site mutation], [IPI|W|Inferred from physical interaction]	11353844, 1409631	Strong
+ECK120012646	BirA	birA	bio-5'-AMP	positive	BirA-bio-5'-AMP	Active	Allosteric	Holo	[SM|S|Site mutation], [IPI|W|Inferred from physical interaction]	11353844, 1409631	Strong
+ECK120011235	CRP	crp			CRP	Inactive		Apo	[IPI|W|Inferred from physical interaction]	16906160, 19359484	Weak
+ECK120011235	CRP	crp	cAMP	positive	CRP-cAMP	Active	Allosteric	Holo	[IPI|W|Inferred from physical interaction]	16906160, 19359484	Weak
+ECK120013750	Cbl	cbl	Thiosulphate	negative	Cbl-Thiosulphate	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	17010379	Strong
+ECK120013750	Cbl	cbl			Cbl	Active		Apo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	11918818, 17010379	Strong
+ECK120013750	Cbl	cbl	Adenosine 5' phosphosulphate	negative	Cbl-adenosine 5' phosphosulphate	Inactive	Allosteric	Holo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	11918818, 17010379	Strong
+ECK120012036	ChbR	chbR	Monoacetylchitobiose-6P	positive	ChbR-Monoacetylchitobiose-6P	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction]	22797760	Strong
+ECK120011210	CpxR	cpxR	Phosphate	positive	CpxR-Phosphorylated	Active	Covalent	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865, 16861804, 9159398	Strong
+ECK120011210	CpxR	cpxR			CpxR	Inactive		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865, 16861804, 9159398	Strong
+ECK120013112	Cra	cra	Fructose-1-phosphate	negative	Cra-Fructose-1-phosphate	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	8230205, 8577250, 9084760	Strong
+ECK120013112	Cra	cra	Fructose-1,6-diphosphate	negative	Cra-Fructose-1,6-diphosphate	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	8230205, 8577250, 9084760	Strong
+ECK120013112	Cra	cra			Cra	Active		Apo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	8230205, 8577250, 9084760	Strong
+ECK120035002	CreB	creB	Phosphate	positive	CreB-Phosphorylated	Active	Covalent	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865	Strong
+ECK120035002	CreB	creB			CreB	Inactive		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865	Strong
+ECK120034780	CueR	cueR			CueR	Inactive		Apo	[IDA|S|Inferred from direct assay], [IPI|W|Inferred from physical interaction]	12958362	Strong
+ECK120034780	CueR	cueR	Au	positive	CuerR-Au	Active	Allosteric	Holo	[IDA|S|Inferred from direct assay], [IPI|W|Inferred from physical interaction]	12958362	Strong
+ECK120034780	CueR	cueR	Cu<sup>+</sup>	positive	CueR-Cu<sup>+</sup>	Active	Allosteric	Holo	[IDA|S|Inferred from direct assay], [IPI|W|Inferred from physical interaction]	12958362	Strong
+ECK120034780	CueR	cueR	Ag	positive	CueR-Ag	Active	Allosteric	Holo	[IDA|S|Inferred from direct assay], [IPI|W|Inferred from physical interaction]	12958362	Strong
+ECK120011941	CusR	cusR	Phosphate	positive	CusR-P<SUP>asp</SUP>	Active	Covalent	Holo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865, 15773991	Strong
+ECK120011941	CusR	cusR			CusR	Inactive		Apo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865, 15773991	Strong
+ECK120013065	CynR	cynR	Cyanate	positive	CynR-Cyanate	Active	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	7961413	Strong
+ECK120011312	CysB	cysB	O-acetyl-L-serine	positive	CysB-O-acetyl-L-serine	Active	Allosteric	Holo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis]	2105304	Strong
+ECK120011312	CysB	cysB	Thiosulphate	negative	CysB-Thiosulfate	Inactive	Allosteric	Holo	[IDA|S|Inferred from direct assay], [BPP|S|Binding of purified proteins]	1909324	Strong
+ECK120011312	CysB	cysB	N-acetyl-L-serine	positive	CysB-N-acetyl-L-serine	Active	Allosteric	Holo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]	11038360, 1909324, 2105304	Strong
+ECK120011312	CysB	cysB	Sulphide	negative	CysB-Sulphide	Inactive	Allosteric	Holo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis]	2105304	Strong
+ECK120012407	CytR	cytR	Cytidine	negative	CytR-Cytidine	Inactive	Allosteric	Holo	[BPP|S|Binding of purified proteins]	1655726	Strong
+ECK120012407	CytR	cytR			CytR	Active		Apo	[BPP|S|Binding of purified proteins]	1655726	Strong
+ECK120034977	DcuR	dcuR	Phosphate	positive	DcuR-Phosphorylated	Active	Covalent	Holo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	14996819, 15522865	Strong
+ECK120034977	DcuR	dcuR			DcuR	Inactive		Apo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	14996819, 15522865	Strong
+ECK120012664	DeoR	deoR			DeoR	Active		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	2653814	Strong
+ECK120012664	DeoR	deoR	Deoxyribose-5-phosphate	negative	DeoR-Deoxyribose-5-phosphate	Inactive	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	2653814	Strong
+ECK120015690	DhaR	dhaR	DhaK	negative	DhaR-DhaK	Inactive	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15616579	Strong
+ECK120015690	DhaR	dhaR			DhaR	Active		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15616579	Strong
+ECK120011903	DnaA	dnaA	ATP	positive	DnaA-ATP	Active	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	9674428	Strong
+ECK120011903	DnaA	dnaA			DnaA	Inactive		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	9674428	Strong
+ECK120034476	DpiA	dpiA			DpiA	Inactive		Apo	[SM|S|Site mutation], [IEP|W|Inferred from expression pattern]	9701802	Strong
+ECK120034476	DpiA	dpiA	Phosphate	positive	DpiA-P<sup>asp</sup>	Active	Covalent	Holo			
+ECK120013081	DsdC	dsdC			DsdC	Active		Apo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	6090429, 6296057	Strong
+ECK120013081	DsdC	dsdC	D-serine	positive	DsdC-D-serine	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	6090429, 6296057	Strong
+ECK120011575	EvgA	evgA			EvgA	Inactive		Apo	[SM|S|Site mutation], [BPP|S|Binding of purified proteins], [AIFS|W|Automated inference of function from sequence]	10923791	Strong
+ECK120011575	EvgA	evgA	Phosphate	positive	EvgA-Phosphorylated	Active	Covalent	Holo	[SM|S|Site mutation], [BPP|S|Binding of purified proteins], [AIFS|W|Automated inference of function from sequence]	10923791	Strong
+ECK120011229	FNR	fnr	[4Fe-4S]<sup>2+</sup> reduced	positive	FNR-[4Fe-4S]<sup>2+</sup> reduced	Active	Covalent	Holo	[IDA|S|Inferred from direct assay], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]	15547274, 18055593, 19261852, 8497198, 9177174	Strong
+ECK120011229	FNR	fnr	[2Fe-2S]<sup>2+</sup> oxidized	negative	FNR-[2Fe-2S]<sup>2+</sup> oxidized	Inactive	Covalent	Apo	[IDA|S|Inferred from direct assay], [IPI|W|Inferred from physical interaction]	14730984, 9177174	Strong
+ECK120011824	FadR	fadR			FadR	Active		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	1569108	Strong
+ECK120011824	FadR	fadR	Acyl-CoA	negative	FadR-acyl-CoA	Inactive	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	1569108	Strong
+ECK120011394	FhlA	fhlA	Formate	positive	FhlA-Formate	Active	Allosteric	Holo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]	10848985, 8981978	Strong
+ECK120011394	FhlA	fhlA			FhlA	Inactive		Apo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]	10848985, 8981978	Strong
+ECK120013118	FucR	fucR	L-fuculose-1-phosphate	positive	FucR-L-fuculose-1-phosphate	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [IMP|W|Inferred from mutant phenotype], [IPI|W|Inferred from physical interaction]	3005235	Weak
+ECK120013118	FucR	fucR			FucR	Inactive		Apo	[GEA|W|Gene expression analysis], [IMP|W|Inferred from mutant phenotype], [IPI|W|Inferred from physical interaction]	3005235	Weak
+ECK120033465	Fur	fur	Fe<sup>2+</sup>	negative	Fur-Fe<sup>2+</sup>	Active	Allosteric	Holo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction]	12746439, 16690618, 1849822, 2823881	Strong
+ECK120033465	Fur	fur	Mn<sup>2+</sup>	positive	Fur-Mn<sup>2+</sup>	Active	Allosteric	Holo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction]	12746439, 16690618, 1849822, 2823881	Strong
+ECK120033465	Fur	fur			Fur	Inactive		Apo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction]	12746439, 16690618, 1849822, 2823881	Strong
+ECK120012713	GalR	galR			GalR	Active		Apo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	8416900, 8982002	Strong
+ECK120012713	GalR	galR	galactose	negative	GalR-galactose	Inactive	Allosteric	Holo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	8416900, 8982002	Strong
+ECK120012704	GalS	galS			GalS	Active		Apo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	8416900, 8619994, 8982002	Strong
+ECK120012704	GalS	galS	galactose	negative	GalS-galactose	Inactive	Allosteric	Holo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	8416900, 8619994, 8982002	Strong
+ECK120012465	GcvA	gcvA	Purine	negative	GcvA-Purine	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]	11495998, 12101307	Strong
+ECK120012465	GcvA	gcvA			GcvA	Active		Apo	[GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]	11495998, 12101307	Strong
+ECK120012465	GcvA	gcvA	Glycine	negative	GcvA-Glycine	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]	11495998, 12101307	Strong
+ECK120011437	GlcC	glcC	Glycolate	positive	GlcC-Glycolate	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	9880556	Strong
+ECK120011437	GlcC	glcC	Acetate	positive	GlcC-Acetate	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	9880556	Strong
+ECK120011437	GlcC	glcC			GlcC	Inactive		Apo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	9880556	Strong
+ECK120012730	GlpR	glpR			GlpR	Active		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	3316209	Strong
+ECK120012730	GlpR	glpR	Glycerol-3-phosphate	negative	GlpR-glycerol-3-phosphate	Inactive	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	3316209	Strong
+ECK125108627	GlrR	glrR	Phosphate	positive	GlrR-P<sup>asp56</sup>	Active	Covalent	Holo			
+ECK125108627	GlrR	glrR			GlrR	Inactive		Apo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]	19843219	Strong
+ECK120012096	GntR	gntR	Gluconate	negative	GntR-gluconate	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [IEP|W|Inferred from expression pattern]	9135111	Weak
+ECK120012096	GntR	gntR			GntR	Active		Apo	[GEA|W|Gene expression analysis], [IEP|W|Inferred from expression pattern]	9135111	Weak
+ECK120013144	GutR	srlR			GutR	Active		Apo	[GEA|W|Gene expression analysis]	3062173	Weak
+ECK120013144	GutR	srlR	Glucitol	negative	GutR-glucitol	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis]	3062173	Weak
+ECK120011897	IclR	iclR	Glyoxylate	negative	IclR-glyoxylate	Inactive	Allosteric	Holo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	17426033	Strong
+ECK120011897	IclR	iclR	Pyruvate	negative	IclR-pyruvate	Active	Allosteric	Holo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	17426033	Strong
+ECK120012101	IdnR	idnR	5-ketogluconate	positive	IdnR-5-ketogluconate	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [IMP|W|Inferred from mutant phenotype]	14973046	Weak
+ECK120012101	IdnR	idnR	Idonate	positive	IdnR-Idonate	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [IMP|W|Inferred from mutant phenotype]	14973046	Weak
+ECK120012101	IdnR	idnR			IdnR	Inactive		Apo	[GEA|W|Gene expression analysis], [IMP|W|Inferred from mutant phenotype]	14973046	Weak
+ECK120012965	IlvY	ilvY	2-acetolactate	positive	IlvY-2-acetolactate	Active	Allosteric	Holo	[IDA|S|Inferred from direct assay], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	9556617	Strong
+ECK120012965	IlvY	ilvY	Alfa-acetohydroxybutirate	positive	IlvY-Alfa-acetohydroxybutirate	Active	Allosteric	Holo	[IDA|S|Inferred from direct assay], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	9556617	Strong
+ECK120012965	IlvY	ilvY			IlvY	Active		Apo	[IDA|S|Inferred from direct assay], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	9556617	Strong
+ECK120011429	IscR	iscR	[2Fe-2S]<sup>1+</sup>	positive	IscR-[2Fe-2S]<sup>1+</sup>	Active	Covalent	Holo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]	11742080, 19361432	Strong
+ECK120011429	IscR	iscR			IscR	Active		Apo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]	19361432	Strong
+ECK120048960	KdpE	kdpE			KdpE-Phosphorylated	Active	Covalent	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]	15522865, 19101563	Strong
+ECK120048960	KdpE	kdpE			KdpE	Inactive		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]	15522865, 19101563	Strong
+ECK120012762	LacI	lacI			LacI	Active		Apo	[IPI|W|Inferred from physical interaction]	17543986	Weak
+ECK120012762	LacI	lacI	Allolactose	negative	LacI-allolactose	Inactive	Allosteric	Holo	[IPI|W|Inferred from physical interaction]	17543986	Weak
+ECK120013830	LldR	lldR	L-lactate	positive	LldR-L-lactate	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	18263722	Strong
+ECK120013830	LldR	lldR			LldR	Active		Apo	[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	18263722	Strong
+ECK120011383	Lrp	lrp	Leucine	positive	Lrp-Leucine	Active	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	11575919	Strong
+ECK120015681	LsrR	lsrR	4,5-dihydroxy-2,3-pentanedione	negative	LsrR-4,5-dihydroxy-2,3-pentanedione	Inactive	Allosteric	Holo	[IMP|W|Inferred from mutant phenotype], [IEP|W|Inferred from expression pattern]	17557827	Weak
+ECK120015681	LsrR	lsrR	4,5-dihydroxy-2,3-pentanedione	negative	LsrR	Active	Allosteric	Apo	[IMP|W|Inferred from mutant phenotype], [IPI|W|Inferred from physical interaction], [IEP|W|Inferred from expression pattern]	17274596, 17557827	Weak
+ECK120015681	LsrR	lsrR	4,5-dihydroxy-2,3-pentanedione-P	negative	LsrR-4,5-dihydroxy-2,3-pentanedione-P	Inactive	Allosteric	Holo	[IPI|W|Inferred from physical interaction]	17274596	Weak
+ECK120012218	MalT	malT	ADP	positive	MalT-ADP-Maltotriose	Active	Allosteric	Holo	[IPI|W|Inferred from physical interaction]	10559195	Weak
+ECK120012218	MalT	malT	Aes	negative	MalT-Aes	Inactive	Allosteric	Holo	[IPI|W|Inferred from physical interaction]	11867639	Weak
+ECK120012218	MalT	malT	MalK	negative	MalT-MalK	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]	12003949, 15180985, 15733913, 9822819	Strong
+ECK120012218	MalT	malT	Maltotriose		MalT-Maltotriose-ATP	Active	Allosteric	Holo	[IDA|S|Inferred from direct assay], [SM|S|Site mutation], [IMP|W|Inferred from mutant phenotype], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	10559195, 10692154, 11867639, 15180985, 2180908, 2524384, 3298211	Strong
+ECK120012218	MalT	malT			MalT	Inactive		Apo	[IDA|S|Inferred from direct assay], [SM|S|Site mutation], [IMP|W|Inferred from mutant phenotype], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	10559195, 10692154, 11867639, 15180985, 15491603, 2180908, 3298211	Strong
+ECK120012218	MalT	malT	MalY	negative	MalT-MalY	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]	10692154, 12003949	Strong
+ECK120012218	MalT	malT	ATP	positive	MalT-Maltotriose-ATP	Active	Allosteric	Holo	[IDA|S|Inferred from direct assay], [SM|S|Site mutation], [IMP|W|Inferred from mutant phenotype], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	10559195, 10692154, 11867639, 15180985, 2180908, 2524384, 3298211	Strong
+ECK120013191	MarR	marR	Salicylate	negative	MarR-salicylate	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	7504664, 7768850	Strong
+ECK120013191	MarR	marR	Sodium salicylate	negative	MarR-Sodium salicylate	Inactive	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	10419969	Strong
+ECK120013191	MarR	marR			MarR	Active		Apo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	10419969, 7504664, 7768850	Strong
+ECK120013191	MarR	marR	Plumbagin	negative	MarR-Plumbagin	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	10419969, 7768850	Strong
+ECK120013191	MarR	marR	Paraquat	negative	MarR-Paraquat	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	7768850	Strong
+ECK120013191	MarR	marR	Phenazine methosulfate	negative	MarR-Phenazine methosulfate	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	7768850	Strong
+ECK120013191	MarR	marR	Menadione	negative	MarR-Menadione	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	10419969, 7768850	Strong
+ECK120013191	MarR	marR	Benzoate	negative	MarR-Benzoate	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	7768850	Strong
+ECK120013191	MarR	marR	2,4-dinitrophenol	negative	MarR-2,4-dinitrophenol	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	10419969, 7768850	Strong
+ECK120012347	MelR	melR			MelR	Active		Apo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	10760178, 18346968	Strong
+ECK120012347	MelR	melR	Melibiose	positive	MelR-Melibiose	Active	Allosteric	Holo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	10760178, 18346968	Strong
+ECK120048948	MetJ	metJ			MetJ	Inactive		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	3090041, 7862523	Strong
+ECK120048948	MetJ	metJ	S-adenosylmethionine	positive	MetJ-S-adenosylmethionine	Active	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	3090041, 7862523	Strong
+ECK120012802	MetR	metR			MetR	Inactive		Apo	[GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]	1943695, 2205852	Strong
+ECK120012802	MetR	metR	L-homocysteine	positive	MetR-L-homocysteine	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]	1943695, 2205852	Strong
+ECK120011482	MhpR	mhpR	3HPP	positive	MhpR-3HPP	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	19520845	Strong
+ECK120011482	MhpR	mhpR			MhpR	Inactive		Apo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	19520845	Strong
+ECK120011482	MhpR	mhpR	3-(2,3-dihydroxyphenyl)propionate [DHPP]	positive	MhpR-3-(2,3-dihydroxyphenyl)propionate [DHPP]	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	19520845	Strong
+ECK120011240	Mlc	mlc			Mlc	Active		Apo	[IDA|S|Inferred from direct assay], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]	11032803, 11157755, 18319344	Strong
+ECK120011240	Mlc	mlc	EIIGlc	negative	Mlc-EIIGlC	Inactive	Allosteric	Holo	[IDA|S|Inferred from direct assay], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]	11032803, 11157755, 18319344	Strong
+ECK120034617	MntR	mntR	Cd<sup>2+</sup>	positive	MntR-Cd<sup>2+</sup>	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]	11466284, 19701940, 21908668	Strong
+ECK120034617	MntR	mntR			MntR-Mn<sup>2+</sup>	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]	11466284, 19701940, 21908668	Strong
+ECK120034617	MntR	mntR			MntR	Inactive		Apo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]	11466284, 19701940, 21908668	Strong
+ECK120011220	ModE	modE	MoO<sub>4</sub><sup>2-</sup>	positive	ModE-MoO<sub>4</sub><sup>2-</sup>	Active	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	10075916, 10446207, 11259434, 12581638, 9210473	Strong
+ECK120011220	ModE	modE			ModE	Inactive		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	10075916, 10446207, 11259434, 12581638, 9210473	Strong
+ECK120011593	MprA	mprA	Carbonyl cyanide m-chlorophenylhydrazone (CCCP)	negative	MprA-Carbonyl cyanide m-chlorophenylhydrazone (CCCP)	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	10438794, 10991887, 7730261	Strong
+ECK120011593	MprA	mprA	Carbonyl cyanide p-(trifluoro-methoxy)phenylhydrazone	negative	MprA-Carbonyl cyanide p-(trifluoro-methoxy)phenylhydrazone	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	10438794, 10991887, 7730261	Strong
+ECK120011593	MprA	mprA	2,4-dinitrophenol	negative	MprA-2,4-dinitrophenol	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	10438794, 10991887, 7730261	Strong
+ECK120011593	MprA	mprA			MprA	Active		Apo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	10438794, 10991887, 7730261	Strong
+ECK120048826	MurR	murR	MurNac-6-P	negative	MurR-MurNac-6-P	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	18723630	Strong
+ECK120048826	MurR	murR			MurR	Active		Apo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	18723630	Strong
+ECK120011908	NagC	nagC	N-acetyl-D-glucosamine-6-phosphate	negative	NagC-N-acetyl-D-glucosamine-6-phosphate	Inactive	Allosteric	Holo	[IMP|W|Inferred from mutant phenotype], [BPP|S|Binding of purified proteins]	1766379	Strong
+ECK120011908	NagC	nagC			NagC	Active		Apo	[IMP|W|Inferred from mutant phenotype], [BPP|S|Binding of purified proteins]	1766379	Strong
+ECK120012559	NanR	nanR			NanR	Active		Apo	[BPP|S|Binding of purified proteins]	15534208	Strong
+ECK120012559	NanR	nanR	N-acetylneuraminate	negative	NanR-N-acetylneuraminate	Inactive	Allosteric	Holo	[BPP|S|Binding of purified proteins]	15534208	Strong
+ECK120011502	NarL	narL	Phosphate	positive	NarL-Phosphorylated	Active	Covalent	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865, 8780507, 9521685	Strong
+ECK120011502	NarL	narL			NarL	Inactive		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865, 8780507, 9521685	Strong
+ECK120011508	NarP	narP	Phosphate	positive	NarP-Phosphorylated	Active	Covalent	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865	Strong
+ECK120011508	NarP	narP			NarP	Inactive		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865	Strong
+ECK120011378	NhaR	nhaR	Na<SUP>+</SUP>	positive	NhaR-Na<SUP>+</SUP>	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	1316901, 9312050	Strong
+ECK120011378	NhaR	nhaR			NhaR	Inactive		Apo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	1316901, 9312050	Strong
+ECK120023539	NikR	nikR	Ni<sup>2+</sup>	negative	NikR-Ni<sup>2+</sup>	Active	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	12524532, 12970756, 16945905, 18193897, 19621966, 20583753	Strong
+ECK120023539	NikR	nikR	Zn<sup>2+</sup>	positive	NikR-Zn<sup>2+</sup>	Active	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	12524532, 12970756, 16945905, 18193897, 19621966, 20583753	Strong
+ECK120023539	NikR	nikR	Cu<sup>2+</sup>	positive	NikR-Cu<sup>2+</sup>	Active	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	12524532, 12970756, 16945905, 18193897, 19621966, 20583753	Strong
+ECK120023539	NikR	nikR	Co<sup>2+</sup>	negative	NikR-Co<sup>2+</sup>	Active	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	12524532, 12970756, 16945905, 18193897, 19621966, 20583753	Strong
+ECK120023539	NikR	nikR	Cd<sup>2+</sup>	positive	NikR-Cd<sup>2+</sup>	Active	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	12524532, 12970756, 16945905, 18193897, 19621966, 20583753	Strong
+ECK120023539	NikR	nikR			NikR	Inactive		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	12524532, 12970756, 16945905, 18193897, 19621966, 20583753	Strong
+ECK120033053	NrdR	nrdR	dATP	positive	NrdR-dATP	Active	Allosteric	Holo	[IMP|W|Inferred from mutant phenotype], [BPP|S|Binding of purified proteins], [AIFS|W|Automated inference of function from sequence]	17496099	Strong
+ECK120033053	NrdR	nrdR	ATP	positive	NrdR-ATP	Active	Allosteric	Holo	[IMP|W|Inferred from mutant phenotype], [BPP|S|Binding of purified proteins], [AIFS|W|Automated inference of function from sequence]	17496099	Strong
+ECK120033053	NrdR	nrdR	Zn<sup>2+</sup>	positive	NrdR-Zn<sup>2+</sup>	Active	Allosteric	Holo	[IMP|W|Inferred from mutant phenotype], [BPP|S|Binding of purified proteins], [AIFS|W|Automated inference of function from sequence]	17496099	Strong
+ECK120016814	NsrR	nsrR	[2Fe-2S] reduced	positive	NsrR-[2Fe-2S]reduced	Active	Covalent	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	18989365	Strong
+ECK120016814	NsrR	nsrR	[2Fe-2S]<sup>2+</sup> oxidized	negative	NsrR-[2Fe-2S]<sup>2+</sup> oxidized	Inactive	Covalent	Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	18989365	Strong
+ECK125134687	NtrC	glnG			NtrC	Inactive		Apo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865, 16751184, 7641688, 7730282, 9367763, 9600853	Strong
+ECK125134687	NtrC	glnG			NtrC-Phosphorylated	Active	Covalent	Holo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865, 16751184, 7641688, 7730282, 9367763, 9600853	Strong
+ECK125110257	OmpR	ompR			OmpR-Phosphorylated	Active	Covalent	Holo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	11812125, 15522865, 2160945, 2656704, 2668281, 7568033, 9016718, 9096305	Strong
+ECK125110257	OmpR	ompR			OmpR	Inactive		Apo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	11812125, 15522865, 2160945, 2656704, 2668281, 7568033, 9016718, 9096305	Strong
+ECK120012246	PdhR	pdhR	Pyruvate	negative	PdhR-pyruvate	Inactive	Allosteric	Holo	[IDA|S|Inferred from direct assay], [BPP|S|Binding of purified proteins]	17513468, 7783622	Strong
+ECK120012246	PdhR	pdhR			PdhR	Active		Apo	[IDA|S|Inferred from direct assay], [BPP|S|Binding of purified proteins]	17513468, 7783622	Strong
+ECK120011306	PhoB	phoB			PhoB	Inactive		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865	Strong
+ECK120011306	PhoB	phoB	Phosphate	positive	PhoB-Phosphorylated	Active	Covalent	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865	Strong
+ECK120011492	PhoP	phoP	Phosphate	positive	PhoP-Phosphorylated	Active	Covalent	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865	Strong
+ECK120011492	PhoP	phoP			PhoP	Inactive		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865	Strong
+ECK120015234	PrpR	prpR	2-methylcitrate	positive	PrpR-2-methylcitrate	Active	Allosteric	Holo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]	15528672	Strong
+ECK120015234	PrpR	prpR			PrpR	Active		Apo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]	15528672	Strong
+ECK120012854	PurR	purR	Hypoxanthine	positive	PurR-Hypoxanthine	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	1400170, 2089227, 2211500	Strong
+ECK120012854	PurR	purR	Guanine	positive	PurR-Guanine	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	1400170, 2089227, 2211500	Strong
+ECK120012854	PurR	purR			PurR	Inactive		Apo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	1400170, 2089227, 2211500	Strong
+ECK120012277	QseB	qseB	Phosphate	positive	QseB-Phosphorylated	Active	Covalent	Holo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [IEP|W|Inferred from expression pattern]	16803956	Strong
+ECK120012277	QseB	qseB			QseB	Inactive		Apo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [IEP|W|Inferred from expression pattern]	16803956	Strong
+ECK120013229	RbsR	rbsR	D-ribose	negative	RbsR-D-ribose	Inactive	Allosteric	Holo	[IDA|S|Inferred from direct assay], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	1304369	Strong
+ECK120013229	RbsR	rbsR			RbsR	Active		Apo	[IDA|S|Inferred from direct assay], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	1304369	Strong
+ECK120033010	RcnR	rcnR			RcnR-Ni <sup>2+</sup>	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	16956381, 17120142, 18505253	Strong
+ECK120033010	RcnR	rcnR	Co<sup>2+</sup>	negative	RcnR-Co<sup>2+</sup>	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	16956381, 17120142, 18505253	Strong
+ECK120033010	RcnR	rcnR			RcnR	Active		Apo	[GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	16956381, 17120142, 18505253	Strong
+ECK120012877	RhaR	rhaR	L-rhamnose	positive	RhaR-L-rhamnose	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [SM|S|Site mutation]	18366439	Strong
+ECK120012337	RhaS	rhaS	L-rhamnose	positive	RhaS-L-rhamnose	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [SM|S|Site mutation]	18366439	Strong
+ECK120033066	RstA	rstA			RstA	Inactive		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865	Strong
+ECK120033066	RstA	rstA	Phosphate	positive	RstA-Phosphorylated	Active	Covalent	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865	Strong
+ECK120033905	RutR	rutR			RutR	Active		Apo	[IDA|S|Inferred from direct assay], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]	17919280	Strong
+ECK120033905	RutR	rutR	Thymine	negative	RutR-Thymine	Inactive	Allosteric	Holo	[IDA|S|Inferred from direct assay], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]	17919280	Strong
+ECK120033905	RutR	rutR	Uracil	negative	RutR-uracil	Inactive	Allosteric	Holo	[IDA|S|Inferred from direct assay], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]	17919280	Strong
+ECK120013242	SoxR	soxR	[2Fe-2S]<sup>2+</sup> reduced	negative	SoxR-[2Fe-2S]<sup>2+</sup> reduced	Inactive	Covalent	Apo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]	7673113, 8816757, 9019397, 9030573	Strong
+ECK120013242	SoxR	soxR	[2Fe-2S]<sup>3+</sup> oxydized	positive	SoxR-[2Fe-2S]<sup>3+</sup> oxydized	Active	Covalent	Holo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [IEP|W|Inferred from expression pattern]	7673113, 8816757, 9019397, 9030573	Strong
+ECK120012482	TorR	torR	TorI	negative	TorR-TorI	Inactive	Covalent	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865	Strong
+ECK120012482	TorR	torR	Phosphate	positive	TorR-Phosphorylated	Active	Covalent	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865	Strong
+ECK120011406	TreR	treR			TreR	Active		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	19787122, 9148912, 9865945	Strong
+ECK120011406	TreR	treR	Trehalose	negative	TreR-Trehalose	Inactive	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	19787122, 9148912, 9865945	Strong
+ECK120011406	TreR	treR	Trehalose-6-phosphate	negative	TreR-trehalose-6-phosphate	Inactive	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	19787122, 9148912, 9865945	Strong
+ECK120012176	TrpR	trpR	Tryptophan	positive	TrpR-Tryptophan	Active	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [AIFS|W|Automated inference of function from sequence]	3519217, 7957174, 8433368	Strong
+ECK120012176	TrpR	trpR			TrpR	Inactive		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins], [AIFS|W|Automated inference of function from sequence]	3519217, 7957174, 8433368	Strong
+ECK120011194	TyrR	tyrR			TyrR	Inactive		Apo	[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	11923293, 7961453	Strong
+ECK120011194	TyrR	tyrR	Phenylalanine	positive	TyrR-Phenylalanine	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]	7961453	Strong
+ECK120011194	TyrR	tyrR	Tyrosine	positive	TyrR-Tyrosine	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [SM|S|Site mutation], [IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	11923293, 7961453	Strong
+ECK120011194	TyrR	tyrR	Tryptophan	positive	TyrR-L-tryptophan	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [SM|S|Site mutation], [BPP|S|Binding of purified proteins]	7961453	Strong
+ECK120048769	UhpA	uhpA	Phosphate	positive	UhpA-Phosphorylated	Active	Covalent	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865	Strong
+ECK120048769	UhpA	uhpA			UhpA	Inactive		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	15522865	Strong
+ECK120012145	UxuR	uxuR			UxuR	Active		Apo	[GEA|W|Gene expression analysis], [IMP|W|Inferred from mutant phenotype]	6281232	Weak
+ECK120012145	UxuR	uxuR	Fructuronate	negative	UxuR-fructuronate	Inactive	Allosteric	Holo	[GEA|W|Gene expression analysis], [IMP|W|Inferred from mutant phenotype]	6281232	Weak
+ECK120013780	XapR	xapR	xanthosine	positive	XapR-xanthosine	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	10400599, 7559336	Strong
+ECK120013780	XapR	xapR			XapR	Active		Apo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	10400599, 7559336	Strong
+ECK120013786	XylR	xylR	Xylose	positive	XylR-Xylose	Active	Allosteric	Holo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	7559336	Strong
+ECK120013786	XylR	xylR			XylR	Inactive		Apo	[GEA|W|Gene expression analysis], [BPP|S|Binding of purified proteins]	7559336	Strong
+ECK125134855	YqjI	yqjI	Fe<sup>2+</sup>	negative	YqjI-Fe<sup>2+</sup>	Inactive	Allosteric	Holo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction]	21097627	Strong
+ECK125134855	YqjI	yqjI			YqjI	Active		Apo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction]	21097627	Strong
+ECK125134855	YqjI	yqjI	Ni<sup>2+</sup>	negative	YqjI-Ni<sup>2+</sup>	Inactive	Allosteric	Holo	[IDA|S|Inferred from direct assay], [GEA|W|Gene expression analysis], [IPI|W|Inferred from physical interaction]	21097627	Strong
+ECK120034467	ZntR	zntR			ZntR	Inactive		Apo	[IPI|W|Inferred from physical interaction]	12958362	Weak
+ECK120034467	ZntR	zntR	Cd<sup>2+</sup>	positive	ZntR-Cd<sup>2+</sup>	Active	Allosteric	Holo	[IPI|W|Inferred from physical interaction]	12958362	Weak
+ECK120034467	ZntR	zntR	Cd<sup>2+</sup>	positive	ZntR-Zn<sup>2+</sup>	Active	Allosteric	Holo	[IPI|W|Inferred from physical interaction]	12958362	Weak
+ECK120034467	ZntR	zntR	Hg	positive	ZntR-Hg	Active	Allosteric	Holo	[IPI|W|Inferred from physical interaction]	12958362	Weak
+ECK120014103	ZraR	zraR	Phosphate	positive	ZraR-Phosphorylated	Active	Covalent	Holo	[IPI|W|Inferred from physical interaction]	16005641	Weak
+ECK120014103	ZraR	zraR			ZraR	Inactive		Apo	[IPI|W|Inferred from physical interaction]	16005641	Weak
+ECK120012020	Zur	zur	Zn<sup>2+</sup>	positive	Zur-Zn<sup>2+</sup>	Active	Allosteric	Holo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	10816566, 11523983	Strong
+ECK120012020	Zur	zur			Zur	Inactive		Apo	[IPI|W|Inferred from physical interaction], [BPP|S|Binding of purified proteins]	10816566, 11523983	Strong
