@@ -66,6 +66,36 @@ def fGenSents(wList,sLen=10000):
         i+=sLen
     return result
 
+def fmSegFasta(path,wl=3):
+    """
+    fmSegFasta treat each fasta entry as a sentence and do the 
+    same segementation
+    """
+    result=[]
+    prev=''
+    sentences=[]
+    with open(path,'rb') as file:
+        for line in file:
+            line=line.rstrip()
+            if line[0]=='>':
+                if len(prev)>0:
+                    result.append(prev)
+                    prev=''
+            else:
+                prev+=line
+    offsets=range(wl)
+    for sent in result:
+        tmp=[]
+        for offset in offsets:
+            i=offset
+            while i <len(sent):
+              tmp.append(sent[i:i+wl])
+              i+=wl 
+            sentences.append(tmp)
+    return sentences
+            
+
+
 if __name__=="__main__":
 
     path=sys.argv[1]
@@ -77,11 +107,15 @@ if __name__=="__main__":
         opath=(sys.argv[3])
 
 
-    data=fGenSents(fmSegGnome(path,wl))
+    #data=fGenSents(fmSegGnome(path,wl))
 
     
-    P.dump(data,open(opath,'wb'))
-            
+    #P.dump(data,open(opath,'wb'))
+    result=fmSegFasta(path,wl=wl)
+
+    P.dump(result,open(opath,'wb'))
+
+
     
 
     
