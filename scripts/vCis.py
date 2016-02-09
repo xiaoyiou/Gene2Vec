@@ -3,6 +3,10 @@
 import gensim
 import regulonEntity
 import scipy.spatial.distance as ssd
+import matplotlib.pyplot as plt
+import pylab as plot
+import numpy as np
+
 
 def seq2vec(seq,model,wl):
     """
@@ -82,5 +86,21 @@ def pwAverageCosineAll(vCiss,thresh=5):
             tempV+=1-ssd.cosine(vCiss[x],vCiss[y])
     return tempV/count
     
-    
+
+def scatterBS(X,ciss,edges,threshold=5):
+
+    n=0
+    for key in edges.keys():
+        if len(edges[key])>threshold:
+            n+=1
+            
+
+    color=iter(plt.cm.rainbow(np.linspace(0,1,n)))
+
+    for key in edges.keys():
+        if len(edges[key])<threshold:
+            continue
+        plot.scatter(X[edges[key],0],X[edges[key],1],30,color=next(color))
+
+    plt.show()
     
